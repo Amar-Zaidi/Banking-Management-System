@@ -1,0 +1,6 @@
+Kevin Security_Guard 20000
+john Sweeper 15000
+Jonathan Cashier 30000
+Mick Cashier 30000
+Henrick Cashier 30000
+Fred Manager 40000
