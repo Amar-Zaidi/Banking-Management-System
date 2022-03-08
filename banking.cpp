@@ -1069,6 +1069,7 @@ void DeleteAccount()
         cout_tab();
         cout << "The Given Username does Not Exist.." << endl;
     }
+    tempStop();
 }
 void cout_tab()
 {
