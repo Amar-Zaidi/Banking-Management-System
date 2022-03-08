@@ -340,14 +340,14 @@ void customer_Menu()
     cout << "\t\t\tEnter your option:" << endl;
     cout << "\t\t\t";
     cin >> option;
-    system("clear");
+    system("cls");
 }
 void tempStop() // FUNCTION TO STOP THE EXECUTION TEMPORARILY
 {
     cout_tab();
     cout << "Enter any Key to Continue......";
     cin >> key;
-    system("clear");
+    system("cls");
 }
 // STARTING OF ADMIN FUNCTIONALITY HANDLING
 void admin_menu() // ADmin Menu
@@ -365,7 +365,7 @@ void admin_menu() // ADmin Menu
     cout << "\t\t\tEnter your option:" << endl;
     cout << "\t\t\t";
     cin >> option;
-    system("clear");
+    system("cls");
 }
 void addCustomer()
 {
@@ -433,7 +433,7 @@ void addCustomer()
         }
         customers_account_no[customers_count] = Account_no++;
         Account_no++;
-        system("clear");
+        system("cls");
     }
 }
 void checkAccounts()
@@ -630,7 +630,7 @@ string loginMenu()
     cin >> username;
     cout << "\t\t\tEnter password:";
     cin >> password;
-    system("clear");
+    system("cls");
     if (username == admin_username && password == admin_password)
     {
         return "ADMIN";
